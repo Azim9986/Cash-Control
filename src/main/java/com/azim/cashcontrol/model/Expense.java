@@ -29,7 +29,7 @@ public class Expense {
     @GeneratedValue(
             strategy = GenerationType.IDENTITY
     )
-//    @ApiModelProperty(notes = "ID is auto generated", example = "NA", required = false, allowEmptyValue = true)
+
     private Long expenseId;
 
     @ApiModelProperty(notes = "Category ID, use category end points to find out suitable one", example = "1", required = true, allowEmptyValue = false)
